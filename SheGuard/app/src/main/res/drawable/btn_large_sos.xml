@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/color_ripple_sos">
+
+    <item>
+        <layer-list>
+            <!-- Outer semi-transparent white ring -->
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="#33FF0000" /> <!-- Red with transparency -->
+                </shape>
+            </item>
+
+            <!-- Middle semi-transparent white ring -->
+            <item
+                android:bottom="28dp"
+                android:end="28dp"
+                android:start="28dp"
+                android:top="28dp">
+                <shape android:shape="oval">
+                    <solid android:color="#99FF0000" /> <!-- Red with more opacity -->
+                </shape>
+            </item>
+
+            <!-- Inner solid red circle -->
+            <item
+                android:bottom="56dp"
+                android:end="56dp"
+                android:start="56dp"
+                android:top="56dp">
+                <shape android:shape="oval">
+                    <solid android:color="#FF0000" /> <!-- Fully solid red -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</ripple>

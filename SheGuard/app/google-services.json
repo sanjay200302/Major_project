@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "259740829822",
+    "project_id": "sheguard-71dc7",
+    "storage_bucket": "sheguard-71dc7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259740829822:android:58e5afc61020cd8af9f02f",
+        "android_client_info": {
+          "package_name": "com.android.sheguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259740829822-dfr6vln00sn3k45r31gput3pt8ps9csd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHvGVLBcO7iLWwUWe9Ou-Jbec5EfSG5wM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259740829822-dfr6vln00sn3k45r31gput3pt8ps9csd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
